@@ -1,14 +1,14 @@
 {
   "name": "sportfit",
   "version": "1.0.0",
-  "description": "HTML for sportfit",
+  "description": "HTML boilerplate",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"YES\"",
+    "test": "echo \"Hello\"",
     "dev": "gulp"
   },
   "keywords": [
-    "sportfit"
+    "template"
   ],
   "author": "dimovich85@gmail.com",
   "license": "ISC",
@@ -17,7 +17,6 @@
     "@babel/plugin-proposal-class-properties": "^7.1.0",
     "@babel/preset-env": "^7.1.6",
     "babel-loader": "^8.0.4",
-    "babel-polyfill": "^6.26.0",
     "browser-sync": "^2.26.3",
     "del": "^3.0.0",
     "gulp": "^3.9.1",
@@ -40,6 +39,7 @@
     "webpack": "^4.26.1"
   },
   "dependencies": {
-    "jquery": "^3.3.1"
+    "jquery": "^3.3.1",
+    "babel-polyfill": "^6.26.0",
   }
 }
