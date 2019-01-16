@@ -1,11 +1,12 @@
 {
-  "name": "sportfit",
+  "name": "dimovich85--template",
   "version": "1.0.0",
   "description": "HTML boilerplate",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Hello\"",
-    "dev": "gulp"
+    "dev": "gulp",
+    "build": "gulp build"
   },
   "keywords": [
     "template"
@@ -40,6 +41,6 @@
   },
   "dependencies": {
     "jquery": "^3.3.1",
-    "babel-polyfill": "^6.26.0",
+    "babel-polyfill": "^6.26.0"
   }
 }
