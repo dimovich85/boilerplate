@@ -17,6 +17,7 @@ gulp.task('server', function() {
             config.dest.css + '/*.css',
             config.dest.img + '/**/*'
         ],
+        watch: true,
         port: util.env.port || 8080,
         
         notify: false,
